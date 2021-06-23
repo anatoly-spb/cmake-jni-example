@@ -24,4 +24,4 @@ target_link_libraries(boo
 
 get_target_property(_FOO_JAR_FILE foo JAR_FILE)
 
-add_test(NAME test_foo COMMAND ${Java_JAVA_EXECUTABLE} -Djava.library.path=$<TARGET_FILE_DIR:boo> -cp ${_FOO_JAR_FILE} foo WORKING_DIRECTORY)
+add_test(NAME test_foo COMMAND ${Java_JAVA_EXECUTABLE} -Djava.library.path=$<TARGET_FILE_DIR:boo> -cp ${_FOO_JAR_FILE} foo)
