@@ -1,6 +1,6 @@
 public class foo {
   static {
-    System.loadLibrary("bar");
+    System.loadLibrary("boo");
   }
 
   public static class FooClass {
